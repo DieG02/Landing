@@ -2100,12 +2100,12 @@ li.sub-menu--item.nav-item-has-children i {
   background: url(../image/l3/background.png);
   background-repeat: no-repeat;
   position: absolute;
-  top: -50%;
+  top: -40%;
   height: 135%;
   width: 135%;
   background-size: cover;
   left: -30%;
-  transform: rotate(-11deg);
+  transform: rotate(0deg);
   z-index: -1;
 }
 
@@ -2427,6 +2427,11 @@ li.sub-menu--item.nav-item-has-children i {
 
 .footer-widget-l-13 {
   margin: 30px 0px;
+}
+
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {
